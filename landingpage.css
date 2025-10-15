@@ -66,7 +66,7 @@ body{
     color: #ffffff;
     font-size: xx-large;
     padding-bottom: 150px;
-    padding-top: 200px;
+    padding-top: 260px;
     z-index: 999;
 }
 
@@ -124,8 +124,8 @@ body{
         height: 50vh;
     }
     .middle-sect2{
-       padding-top: 150px;
-       padding-bottom: 50px;
+       padding-top: 230px;
+       padding-bottom: 120px;
     }
     .middle-sect2{
         font-size: 1.0em;
@@ -150,7 +150,7 @@ body{
 
  /* about  */
 .middle-sect{
-    background-color: #313030;
+    background-color: #18392F;
     color: white;
     height: 100vh;
 }
@@ -290,8 +290,20 @@ body{
     .infoo h1{
         font-size: 1.5em;
     }
+    .info br{
+        display: none;
+    }
 }
-@media(max-width:)
+@media(max-width:670px){
+    .info{
+        flex-direction: column;
+    }
+}
+@media(max-width:450px){
+    .info img{
+        width: 250px;
+    }
+}
 
 
    /* services */
@@ -387,6 +399,9 @@ body{
     padding: 0px 30px;
     
 }
+.skills a{
+    color: #ffffff;
+}
 .skill-contain hr{
     border: 2px solid white;
     width: 25%;
@@ -420,8 +435,19 @@ body{
     .skills{
         width: 170px;
         text-align: center;
-        margin-left: 105px;
+        /* margin-left: 80px; */
+        margin: auto;
         
+    }
+    .skill{
+        width: 350px;
+        align-items: center;
+        /* margin-: 45px; */
+    }
+}
+@media(max-width:386px){
+    .skill{
+        width: 300px;
     }
 }
    
