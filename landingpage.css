@@ -44,8 +44,9 @@ body{
     border-radius: 30px;
 }
 .left-side span{
+    
     margin: auto;
-    color: #ffffff;
+    color: white;
 }
 .hero-sect ul{
     display: flex;
@@ -94,7 +95,7 @@ body{
 }
 .me2 p{
     font-size: larger;
-    : 50px;
+    
 }
 .hero-side{
     background-color: rgba(54, 52, 52, 0.842);
@@ -435,15 +436,25 @@ input, textarea{
     .infoo br{
         display: none;
     }
+    .what i{
+        left: 1100px;
+    }
     
 }
 @media(max-width:882px){
     .skills{
         gap: 2em;
     }
+    .what i{
+        left: 800px;
+        top: 650px;
+    }
 }
 
 @media(max-width:668px){
+    .what i{
+        left: 560px;
+    }
     .ooo{
         padding: 30px;
         padding-top: 200px;
@@ -494,6 +505,9 @@ input, textarea{
     .skills img{
         width: 300px;
         height: 300px;
+    }
+    .what i{
+        left: 320px;
     }
 }
 
